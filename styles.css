@@ -1,0 +1,192 @@
+/* ===== Beginner-Friendly CSS for D&G Rides LLC ===== */
+
+/* Color Palette:
+   - Dark Blue: #0a1d2e
+   - Deep Red: #c1272d
+   - Gold: #f0c14b
+   - Light Grey: #e0e0e0
+   - Light Background: #f8f9fa
+*/
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fa;
+  color: #0a1d2e;
+  line-height: 1.6;
+}
+
+/* Promotions Banner */
+.promotions-header {
+  background-color: #c1272d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Logo and Navigation */
+.logo-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a1d2e;
+  padding: 20px;
+}
+
+.logo-container img {
+  width: 100px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-bar a {
+  color: #f8f9fa;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-bar a:hover {
+  background-color: #f0c14b;
+  color: #0a1d2e;
+}
+
+/* Homepage Layout */
+.Homepage-container {
+  padding: 20px;
+}
+
+.about-container {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.about-paragraph {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/***move to FAQ section at some point***/
+.faq-container{
+  margin: 20px;
+  text-align: center;
+}
+h2 {
+  color: #0a1d2e;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Vehicle Scroll */
+.vehicle-scroll {
+  background-color: #0a1d2e;
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding:50px 0;
+  justify-content: center;border-radius: 8px;
+}
+
+.vehicle-scroll img {
+ margin: 10px;
+  width: 200px;
+  border: 2px solid #f0c14b;
+  border-radius: 8px;
+}
+
+/* Booking Section */
+.booking-section {
+  
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.book-now {
+  background-color: #f0c14b;
+  border: none;
+  padding: 10px 20px;
+  color: #0a1d2e;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.book-now:hover {
+  background-color: #e0c03b;
+}
+
+/* Reviews Section */
+.reviews {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 30px;
+
+}
+
+.reviews img {
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #0a1d2e;
+}
+
+/* Footer */
+footer {
+  background-color: #0a1d2e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.floating-contact {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.floating-contact div {
+ 
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.socials-footer {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.socialmedia-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.socialmedia-container img {
+  background-color:  #f0c14b;
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.socialmedia-container img:hover {
+  transform: scale(1.1);
+}
